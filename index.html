@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+      crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Número Aleátorio</title>
+</head>
+<body>
+
+    <header id="header"> <!-- inicio Cabecalho -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-secondary">
+           <div class="container">
+               <a href="index.html" class="navbar-brand"> 
+                  <i class="fas fa-home fa-lg" style="color: white;"></i>
+               </a>
+    
+               <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-pricinpal">
+                   <i class="fas fa-bars text-white"></i>
+               </button>
+    
+               <div class="collapse navbar-collapse" id="nav-pricinpal">
+
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a href="" class="nav-link">Número Aleátorio</a>
+                    </li>
+                  </ul>
+    
+                </div>
+           </div>
+        </nav>
+    </header><!-- fim Cabecalho -->
+
+    <section id="home" class="d-flex">
+
+        <div class="container">
+            <div class="col-sm capa">  
+                <div>
+                    <form>
+                        <div class="form-group">
+
+                            <label for="formGroupExampleInput" class="font">Informe um número</label>
+                            <input type="text" class="form-control" id="inicio" placeholder="Número Inicial">
+
+                        </div>
+                        <div class="form-group">
+
+                          <label for="formGroupExampleInput2" class="font">Informe um número</label>
+                          <input type="text" class="form-control" id="fim" placeholder="Número final">
+                          
+                        </div>
+                            <button type="button" class="btn btn-secondary m-botao" id="gerar">Gerar Número</button>
+                            <div>                                    <h3 id="result"></h3>
+                               <button onclick="_click()" class="btn btn-secondary m-botao">Resetar</button>
+                            </div>
+                        </div>
+                    </form>
+                
+                    
+                </div>
+            
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+
+    <script src="js/code.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
